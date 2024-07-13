@@ -2,7 +2,7 @@
 
 export default async function handler(req, res) {
   try {
-      const response = await fetch('https://glsr-mura-tomos-projects.vercel.app/api/random-number');
+      const response = await fetch('https://glsr-python.vercel.app/api/random-number');
       const data = await response.json();
       res.status(200).json(data);
   } catch (error) {

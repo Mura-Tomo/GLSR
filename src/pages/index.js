@@ -69,7 +69,7 @@ export default function Home() {
                 <button onClick={handleClick} className='btn btn-danger' >
                     Python実行
                 </button>
-                {number !== null && <h2 className="text-xl mt-4">生成された数字: {number}</h2>}
+                {number !== null && <h2 className="text-xl mt-4">生成数字: {number}</h2>}
         </div>
         </>
     )

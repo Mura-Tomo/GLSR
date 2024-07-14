@@ -27,7 +27,7 @@ export default function Home() {
     //   };
     const handleClick = async () => {
         try {
-            const response = await fetch('https://glsr-python-6o7q.vercel.app/api/random-number', {
+            const response = await fetch('/api/get-random-number', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
